@@ -1,3 +1,4 @@
+#ISA PON UN TITULO TE LO RUEGO 
 mes<- readline (prompt = "ingresa el mes en el que naciste (considerando a enero como 1 y diciembre como 12):") #le pides que te de el mes
 dia<- readline( prompt = "ingresa el numero del dia del mes en el que naciste (del 1 al 31):") #le pides que te de el numero del dia
 año<- readline (prompt = "ingresa el año en el que naciste") #le pides el año
@@ -38,4 +39,45 @@ if (mes==3 & dia >= 21 | mes==4 & dia<=19) {cat(" eres ARIES un signo de fuego, 
                     } else if ((mes== 12& dia>=21 )| mes==1| mes==2 | (mes==3& dia<=20 )) {
                         cat ("naciste en invierno, caracterizado por dias frios, nieve, lluvia y bebidas calientitas")}
 
-                    
+#Te voy a añadir el de los signos del zodiaco por si lo ocupas...
+#Signo Chino yei yei 
+rata <- c (1924, 1936, 1948, 1960, 1972, 1984, 1996, 2008, 2020)
+buey <- c (1925, 1937, 1949, 1961, 1973, 1985, 1997, 2009, 2021)
+tigre <- c (1926, 1938, 1950, 1962, 1974, 1986, 1998, 2010, 2022)
+conejo <- c (1927, 1939, 1951, 1963, 1975, 1987, 1999, 2011, 2023)
+dragon <- c (1928, 1940, 1952, 1964, 1976, 1988, 2000, 2012, 2024)
+serpiente <- c (1929, 1941, 1953, 1965, 1977, 1989, 2001, 2013, 2025)
+caballo <- c (1930, 1942, 1954, 1966, 1978, 1990, 2002, 2014)
+cabra <- c (1931, 1943, 1955, 1967, 1979, 1991, 2003, 2015)
+mono <- c (1932, 1944, 1956, 1968, 1980, 1992, 2004, 2016)
+gallo <- c (1933, 1945, 1957, 1969, 1981, 1993, 2005, 2017)
+perro <- c (1934, 1946, 1958, 1970, 1982, 1994, 2006, 2018)
+cerdo <- c (1935, 1947, 1959, 1971, 1983, 1995, 2007, 2019)
+
+readline ("¿En qué año naciste? ") -> year
+year <- as.numeric (year)
+
+if ( any (year ==  rata ) ) {
+  print ("Rata")
+} else if ( any (year == buey ) ){
+  print ("Buey")
+} else if ( any (year == dragon ) ){
+  print ("Dragón")
+} else if ( any (year ==  dragon ) ) {
+  print ("Conejo")
+} else if ( any (year ==  conejo ) ) {
+  print ("Serpiente")
+} else if ( any (year == caballo ) ){
+  print ("Caballo")
+} else if ( any (year == cabra ) ){
+  print ("Cabra")
+} else if ( any (year == mono ) ){
+  print ("Mono")
+} else if ( any (year == gallo ) ){
+  print ("Gallo") 
+} else if ( any (year == perro ) ){
+  print ("Perro")
+} else {
+  print ("Cerdo")
+}
+
