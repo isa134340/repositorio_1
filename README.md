@@ -1,2 +1,2 @@
 # repositorio_1
-el repsoitorio que voy a hacer :p
+el repositorio que voy a hacer :p
