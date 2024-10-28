@@ -7,6 +7,7 @@ dia<- as.numeric(dia)
 #• Su edad en a ̃nos
 
 ##########arreglao
+#####pero si se arreglo ono ???
 
 print(cat ("tu tienes", 2024-año ,"años" ))  #hacemos un print y le restamos el año en el que estamos al que nacieron y así tenemos su edad
 
